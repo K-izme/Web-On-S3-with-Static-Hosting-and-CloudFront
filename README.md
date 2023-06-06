@@ -2,7 +2,7 @@
 
 ## Diagram:
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/31dcd4be-f63e-4057-891d-4b46f9e964b1" alt="Deploy" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/df2c0406-768f-4523-bcd9-7a38fbde6481" alt="Deploy" width="50%" height="50%">
 
 ## What is AmazonS3?
 
@@ -24,70 +24,71 @@ Key features: HTTPS, DDoS Protection, Edge Functions, Global edge network, ...
 
 In this we will create a domain www.xxxxxxx.io which will redirect to our storage service (will be a static website)
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/2e3687e7-9d91-40c9-ba7b-30375f8cc2dc" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/3719b8ce-ea3d-474c-b666-9e97e1956920" alt="image" width="50%" height="50%">
 
 Create a bucket and set up it as public because our permission on Sandbox is limited
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/7ffc7780-e937-4b67-8876-aa3ba3f4de27" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/9597d4b0-f344-47ab-bcec-3769f8c51239" alt="image" width="50%" height="50%">
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/883be8a3-1a12-41ad-8081-1b5bfd083896" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/43b3dc70-fb40-478a-97de-160dcebc1e1e" alt="image" width="50%" height="50%">
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/88494836-59da-4b1b-91a1-d9d7ea795fde" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/e4199fbd-fdbb-440b-9b00-3610a428beba" alt="image" width="50%" height="50%">
 
 Upload our folder which is contain our web source, make sure tick it as public
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/2782c03c-cedb-4648-9b1d-81323c53218e" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/39137a84-c8c2-4f72-9208-8dc3b0b4de9a" alt="image" width="50%" height="50%">
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/450cb1a4-da7a-446f-ab23-42bdeeee861d" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/e9600f2f-5854-4ab8-abd6-1448b5052d20" alt="image" width="50%" height="50%">
 
 Make sure to enable static website hosting
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/ebb04b18-f222-494a-8c80-f8fe155a6cd4" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/74f24965-48a6-46a7-9512-fc9a34224604)" alt="image" width="50%" height="50%">
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/c7cdc8e4-8415-4313-b3e0-261bbd29c6e8" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/a0028609-8204-4646-96db-efab514b61d6)" alt="image" width="50%" height="50%">
 
 Edit ACL (we can also edit Policy at Permission page)
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/40a248cd-5533-4487-a6e2-172db7aca2ae" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/37826b3b-453c-4b9d-a99c-21efad34dac6" alt="image" width="50%" height="50%">
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/1f4e79c5-ded1-49bd-a4e5-c2c5e6493fdb" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/2397fde2-0f3a-422e-a202-b6a2c56d7fd1" alt="image" width="50%" height="50%">
 
 ## Result HTML file
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/207034ef-a38a-429c-84eb-bfb1145fb174" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/9e67924c-3786-4790-8aee-79c9faa4f18d" alt="image" width="50%" height="50%">
 
 ## In Route53
 
 Now we make a record to route that www.xxxxxxx.io will be redirect to our S3 static website
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/442f87ac-9fcb-4713-b73f-95fe2b3e170c" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/9a103883-1ae1-4a7b-9962-3c95c3f896e5" alt="image" width="50%" height="50%">
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/fd9a83d0-d6fb-4858-a0ba-d27e51c73d68" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/da67a3a1-ecf0-41c9-a51e-44fd4e936ed8" alt="image" width="50%" height="50%">
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/da62873a-c6a7-4de8-99f9-31caeb0bf899" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/29bc1709-7115-4bbd-9f91-9f5382a3e642" alt="image" width="50%" height="50%">
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/4042f8a9-5346-44f9-80b7-381d049b3d63" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/2c6e1c1c-7a55-4081-bf32-56e28a8e0fba" alt="image" width="50%" height="50%">
 
 ## To manage or create a certificate
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/f0a24524-2627-4281-94ed-2b20d03661cb" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/f8bced3c-ebb1-4756-b6b2-686259af4447" alt="image" width="50%" height="50%">
 
 ## In CloufFront
 
 We just need to care about this
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/8f751fca-fb8c-470b-a8d1-04a50fd772ed" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/0ea70262-6528-40a4-9a13-c0d016f8e461" alt="image" width="50%" height="50%">
 
 And choose your certificate
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/0598c382-1bd6-4932-8ed0-d23ae7c3cb79" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/6a5575fc-f398-4b15-9488-b262fa229ac4" alt="image" width="50%" height="50%">
 
 We can simply understand about cloudfront cache:
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/9752fe0c-99b2-40a4-ba79-4c3268b315b0" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/bbeffc38-76f4-4b01-a26f-69c70b9947f7" width="50%" height="50%">
 
 
 ## Then edit in Amazon S3
 
-<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/df9677df-c399-4692-8be6-cd5cb9417968" alt="image" width="50%" height="50%">
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/4036f386-37b0-4a4d-a2ce-ae1c491a5a77" alt="image" width="50%" height="50%">
 
+Our connect to website is now secure by HTTPS
