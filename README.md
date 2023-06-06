@@ -56,6 +56,8 @@ Edit ACL (we can also edit Policy at Permission page)
 
 <img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/207034ef-a38a-429c-84eb-bfb1145fb174" alt="image" width="50%" height="50%">
 
+## In Route53
+
 Now we make a record to route that www.xxxxxxx.io will be redirect to our S3 static website
 
 <img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/442f87ac-9fcb-4713-b73f-95fe2b3e170c" alt="image" width="50%" height="50%">
