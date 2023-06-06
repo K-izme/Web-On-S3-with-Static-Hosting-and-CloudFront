@@ -2,7 +2,7 @@
 
 ## Diagram:
 
-![deploy](https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/31dcd4be-f63e-4057-891d-4b46f9e964b1)
+<img src="https://github.com/K-izme/Web-On-S3-with-Static-Hosting-and-CloudFront/assets/91515708/31dcd4be-f63e-4057-891d-4b46f9e964b1" alt="Deploy" width="50%" height="50%">
 
 ## What is AmazonS3?
 
